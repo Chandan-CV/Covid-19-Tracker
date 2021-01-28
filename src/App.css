@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: rgb(233, 233, 233) ;
 }
+.App{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+ 
 }
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  
+  
+}
+.form{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  align-self: center;
+}
+.cardsDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding: 10px;
+
+
+}
+.appRight{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  flex: 1;
+  margin-left: 10px;
+  height: max-content;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.appLeft{
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  max-width: 60%;
+  
+}
+.flag{
+  height: 25px ;
+}
+.countryOptions{
+  display: flex;
+margin-right: 10px;
+  flex:1;
+  justify-content: space-between;
+  align-content: space-between;
+  
+}
+@media(max-width:1000px){
+  .App{
+    flex-direction: column;
+    
   }
-  to {
-    transform: rotate(360deg);
+  .appLeft{
+    max-width: 100%;
+  }
+  .appRight{
+    margin-left: 0px;
   }
 }

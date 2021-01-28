@@ -1,0 +1,10 @@
+.infoCard{
+ cursor: pointer;
+ 
+}
+.infobox--selected{
+    border-top: greenyellow 10px solid;
+}
+.infobox--red{
+    border-color: red;
+}

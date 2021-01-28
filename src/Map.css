@@ -1,0 +1,18 @@
+.map{
+    height: 500px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 16px;
+    
+}
+.map .leaflet-container{
+    height: 100%;
+}
+
+.map2{
+    height: 500px;
+}
+.map2 .leaflet-container{
+    height: 100%;
+}
